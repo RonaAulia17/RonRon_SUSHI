@@ -1,0 +1,25 @@
+<resources>
+
+
+
+    <string-array name="outlet">
+        <item>Grand Metropolitan</item>
+    <item>Summarecon Mall</item>
+
+    </string-array>
+    <string name="ronron_go_1_jam"><![CDATA[RonRon Go (< 1 jam)]]></string>
+    <string name="self_take">Self Take</string>
+    <string name="detail_pesanan">Detail Pesanan</string>
+    <string name="go_dan_grab_food_2_jam"><![CDATA[Go dan Grab Food (< 2 jam)]]></string>
+    <string name="nama_penbeli">Nama Penbeli</string>
+    <string name="pengiriman">Pengiriman</string>
+    <string name="makanan">Makanan</string>
+    <string name="alamat">Alamat</string>
+    <string name="kirim">KIRIM</string>
+    <string name="onigiri_nnasi_hangat_dengan_isian_nikmat_disertai_nrumput_laut_kualitas_terbaik">ONIGIRI,\nNasi hangat dengan isian nikmat disertai\nrumput laut kualitas terbaik</string>
+    <string name="nama">Nama</string>
+    <string name="mau_makan_apa">Mau Makan Apa ?</string>
+    <string name="tuna_roll_nkombinasi_daging_tuna_isian_dan_balutan_nrumput_laut_racikan_chef_jepang">TUNA ROLL,\nKombinasi daging Tuna, isian, dan balutan\nrumput laut racikan chef Jepang</string>
+    <string name="tuna_sashimi_nfillet_tuna_pilihan_dari_laut_dalam_n100_fresh_higienis">TUNA SASHIMI,\nFillet Tuna pilihan dari laut dalam\n100% Fresh, Higienis</string>
+
+</resources>

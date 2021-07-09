@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/Pemesan"
+        android:layout_width="300dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/nama_penbeli"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Detail_pesan" />
+
+    <TextView
+        android:id="@+id/Detail_pesan"
+        android:layout_width="145dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="42dp"
+        android:text="@string/detail_pesanan"
+        android:textColor="@color/design_default_color_error"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/Pengiriman"
+        android:layout_width="145dp"
+        android:layout_height="25dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="14dp"
+        android:text="@string/pengiriman"
+        android:textColor="@color/design_default_color_error"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Makananpesan" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="100dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="42dp"
+        android:text="@string/kirim"
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_error"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/KIRIM1" />
+
+    <TextView
+        android:id="@+id/Makananpesan"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="13dp"
+        android:text="string-array"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Alamattuju" />
+
+    <ImageView
+        android:id="@+id/KIRIM1"
+        android:layout_width="101dp"
+        android:layout_height="98dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="28dp"
+        android:contentDescription="TODO"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/radio_group"
+        app:srcCompat="@drawable/deliv" />
+
+    <TextView
+        android:id="@+id/Alamattuju"
+        android:layout_width="225dp"
+        android:layout_height="52dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="13dp"
+        android:text="Alamat"
+        android:textColor="@color/black"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Pemesan" />
+
+    <TextView
+        android:id="@+id/resi"
+        android:layout_width="185dp"
+        android:layout_height="184dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        android:background="@color/design_default_color_error"
+        android:text=""
+        android:textColor="@color/white"
+        app:layout_constraintStart_toEndOf="@+id/KIRIM1"
+        app:layout_constraintTop_toBottomOf="@+id/radio_group" />
+
+    <RadioGroup
+        android:id="@+id/radio_group"
+        android:layout_width="277dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Pengiriman">
+
+        <RadioButton
+            android:id="@+id/Kirim1"
+            android:layout_width="200dp"
+            android:layout_height="25dp"
+            android:text="@string/self_take" />
+
+        <RadioButton
+            android:id="@+id/Kirim2"
+            android:layout_width="200dp"
+            android:layout_height="25dp"
+            android:text="@string/ronron_go_1_jam" />
+
+        <RadioButton
+            android:id="@+id/Kirim3"
+            android:layout_width="250dp"
+            android:layout_height="25dp"
+            android:text="@string/go_dan_grab_food_2_jam" />
+    </RadioGroup>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

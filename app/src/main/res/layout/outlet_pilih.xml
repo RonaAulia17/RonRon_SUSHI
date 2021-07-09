@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/Outlet1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/outlet1" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/tombollokasi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="430dp"
+            android:background="@color/design_default_color_error"
+            app:layout_constraintStart_toEndOf="@+id/lihatpeta1"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@android:drawable/ic_menu_mylocation" />
+
+        <ImageView
+            android:id="@+id/akun_outlet"
+            android:layout_width="57dp"
+            android:layout_height="49dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/orang" />
+
+        <TextView
+            android:id="@+id/Outlet_1"
+            android:layout_width="100dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="317dp"
+            android:text="Outlet"
+            android:textColor="@color/design_default_color_error"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/akun_outlet" />
+
+        <TextView
+            android:id="@+id/Tampil_outlet1"
+            android:layout_width="150dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="321dp"
+            android:text="Outlet"
+            android:textAlignment="textEnd"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toEndOf="@+id/Outlet_1"
+            app:layout_constraintTop_toBottomOf="@+id/Nama_outlet" />
+
+        <TextView
+            android:id="@+id/Lokasi1"
+            android:layout_width="100dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="27dp"
+            android:layout_marginTop="20dp"
+            android:text="Lokasi"
+            android:textColor="@color/design_default_color_error"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Outlet_1" />
+
+        <TextView
+            android:id="@+id/lihatpeta1"
+            android:layout_width="150dp"
+            android:layout_height="25dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginTop="24dp"
+            android:text="Lihat di Peta"
+            android:textAlignment="textEnd"
+            android:textColor="@color/black"
+            app:layout_constraintStart_toEndOf="@+id/Lokasi1"
+            app:layout_constraintTop_toBottomOf="@+id/Tampil_outlet1" />
+
+        <TextView
+            android:id="@+id/Nama_outlet"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="24dp"
+            android:text="Nama"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintStart_toEndOf="@+id/akun_outlet"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/tombolpesan"
+            android:layout_width="146dp"
+            android:layout_height="46dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="23dp"
+            android:backgroundTint="@color/design_default_color_error"
+            android:text="PESAN"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/lihatpeta1" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
